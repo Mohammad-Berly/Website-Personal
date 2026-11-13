@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="dear.daily Store - Katalog cardigan dan fashion sehari-hari.">
+    <title>Dear.Daily Store</title>
+    <link rel="icon" href="cardingan.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <a href="#home" class="logo">
+            <img src="cardingan.png" alt="Logo Dear Daily Store">
+            <span>dear.daily Store</span>
+        </a>
+
+        <nav id="navMenu">
+            <a href="#home">Home</a>
+            <a href="#about">Tentang</a>
+            <a href="#products">Produk</a>
+            <a href="#contact">Kontak</a>
+        </nav>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Buka menu" aria-expanded="false">
+            ☰
+        </button>
+    </header>
+
+    <!-- HOME -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="subtitle">WELCOME TO</p>
+            <h1>dear.daily Store</h1>
+            <p>
+                Temukan cardigan favoritmu untuk melengkapi
+                gaya sehari-hari dengan nyaman dan stylish.
+            </p>
+            <a href="#products" class="btn">Lihat Produk</a>
+        </div>
+    </section>
+
+    <!-- TENTANG -->
+    <section id="about" class="section">
+        <div class="section-title">
+            <p>TENTANG KAMI</p>
+            <h2>dear.daily Store</h2>
+        </div>
+
+        <div class="about-content">
+            <div class="about-image">
+                <img src="Model_Web.jpeg" alt="Koleksi Dear Daily Store">
+            </div>
+
+            <div class="about-text">
+                <h3>Belanja Mudah, Pilihan Beragam</h3>
+                <p> dear.daily Store adalah toko online yang menghadirkan berbagai pilihan cardigan dengan desain modern, stylish, dan nyaman untuk melengkapi gaya sehari-hari. Kami menyediakan beragam model dan warna yang dapat disesuaikan dengan berbagai gaya dan kebutuhan.
+                </p> 
+                <p> Profile dear.daily Store dirancang untuk memberikan pengalaman belanja yang praktis dan mudah. Pelanggan dapat melihat katalog produk, mengetahui detail dan harga cardigan, serta melakukan pemesanan secara langsung dengan lebih cepat dan nyaman.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUK -->
+    <section id="products" class="section products-section">
+        <div class="section-title">
+            <p>KOLEKSI KAMI</p>
+            <h2>Produk Pilihan</h2>
+            <p class="section-description">
+                Temukan koleksi fashion favoritmu.
+            </p>
+        </div>
+
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-category="cardigan">
+                Cardigan
+            </button>
+            <button class="filter-btn" data-category="shirt">
+                Shirt
+            </button>
+        </div>
+
+        <!-- Produk dibuat oleh JavaScript -->
+        <div id="productContainer" class="product-container"></div>
+
+        <!-- Tombol tampilkan produk tambahan -->
+        <div class="more-products">
+            <button id="loadMoreBtn" class="btn more-btn">
+                Lihat Produk Lainnya
+            </button>
+            <p id="productInfo" class="product-info"></p>
+        </div>
+    </section>
+
+
+    <!-- PROMO -->
+    <section id="promo" class="section promo-section">
+        <div class="section-title">
+            <p>PROMOSI</p>
+            <h2>Produk Preview</h2>
+        </div>
+
+        <div class="video-container">
+            <video controls autoplay muted loop>
+                <source src="IMG_1711.mp4" type="Video/mp4">
+                Browser Anda tidak mendukung video.
+            </video>
+        </div>
+    </section>
+
+    <!-- KONTAK -->
+    <section id="contact" class="section contact-section">
+        <div class="section-title">
+            <p>HUBUNGI KAMI</p>
+            <h2>Kontak dear.daily Store</h2>
+        </div>
+
+        <div class="contact-container">
+            <div class="contact-card">
+                <h3>WhatsApp</h3>
+                <p>Hubungi kami untuk informasi dan pemesanan produk.</p>
+                <a href="https://wa.me/62895357103298"
+                   target="_blank" rel="noopener" class="btn">
+                    Chat WhatsApp
+                </a>
+            </div>
+
+            <div class="contact-card">
+                <h3>Shopee</h3>
+                <p>
+                    Temukan promo, voucher, dan penawaran menarik
+                    dari toko kami.
+                </p>
+                <a href="https://shopee.co.id/sariah233?mmp_pid=an_11349141243&share_channel_code=1&uls_trackid=573vmnoh05lf&utm_campaign=-&utm_content=-&utm_medium=affiliates&utm_source=an_11349141243&utm_term=fu9on6v3m4ym"
+                   target="_blank" rel="noopener" class="btn">
+                    Kunjungi Shopee
+                </a>
+            </div>
+
+            <div class="contact-card">
+                <h3>TikTok</h3>
+                <p>Lihat video koleksi dan informasi terbaru kami.</p>
+                <a href="https://www.tiktok.com/@cardirawakalonglb"
+                   target="_blank" rel="noopener" class="btn">
+                    Kunjungi TikTok
+                </a>
+            </div>
+            <div class="contact-card">
+                <h3>Instagram</h3>
+                <p>Jangan sampai ketinggalan! Produk favoritmu sudah tersedia.</p>
+                <a href="https://www.instagram.com/dear.daily_store?rpxt=NWdyaWp0aWd2ajM0"
+                   target="_blank" rel="noopener" class="btn">
+                    Kunjungi Instagram
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- LOKASI -->
+    <section id="lokasi" class="section location-section">
+        <div class="location-container">
+            <div class="location-info">
+                <span class="location-label">VISIT OUR STORE</span>
+                <h2>Temukan<br>di Lokasi Kami</h2>
+                <p>
+                    Kami siap membantu kamu menemukan koleksi
+                    cardigan favorit.
+                </p>
+
+                <div class="location-detail">
+                    <strong>📍 Alamat</strong>
+                    <p>Jl. Al Inayah, RT.02/RW.12, Rawakalong, Gunung Sindur, Bogor.</p>
+                </div>
+
+                <div class="location-detail">
+                    <strong>🕐 Jam Operasional</strong>
+                    <p>
+                        Senin - Sabtu: 10.00 - 21.00<br>
+                        Minggu: 08.00 - 21.00
+                    </p>
+                </div>
+
+                <a href="https://maps.app.goo.gl/7CEYhiYSC4K3YLuS6?g_st=aw"
+                   target="_blank" rel="noopener" class="btn">
+                    Lihat Google Maps
+                </a>
+            </div>
+
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps?q=Gunung%20Sindur&output=embed"
+                    title="Peta Tangerang Selatan"
+                    width="100%" height="350"
+                    style="border:0"
+                    loading="lazy"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <h3>dear.daily Store</h3>
+        <p>Business Profile &amp; Product Catalog</p>
+        <p class="copyright">
+            © 2026 dear.daily Store. All Rights Reserved.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
